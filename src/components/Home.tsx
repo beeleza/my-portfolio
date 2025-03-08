@@ -1,5 +1,8 @@
 import { motion } from "motion/react";
 import backgroundImg from "../assets/bg2.png";
+import { IoLogoJavascript } from "react-icons/io";
+import { FaDocker, FaJava, FaNodeJs, FaPython, FaReact } from "react-icons/fa";
+import { SiMongodb } from "react-icons/si";
 
 const transition = {
   duration: 0.8,
@@ -40,7 +43,7 @@ export default function Home() {
         ></div>
       </div>
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
-        <div className="mx-auto max-w-2xl lg:mx-0">
+        <div className="mx-auto max-w-1xl lg:mx-0">
           <motion.h2
             className="text-5xl font-semibold tracking-tight text-white sm:text-7xl"
             initial={{ opacity: 0, scale: 0.5 }}
@@ -82,7 +85,7 @@ export default function Home() {
           </motion.p>
         </div>
 
-        <div className="mx-auto mt-10 max-w-2xl lg:mx-0 lg:max-w-none">
+        <div className="mx-auto mt-10 max-w-1xl lg:mx-0 lg:max-w-none">
           <div className="grid grid-cols-1 gap-x-8 gap-y-6 text-base/7 font-semibold text-white sm:grid-cols-2 md:flex lg:gap-x-10">
             <motion.a
               href="#"
@@ -240,7 +243,59 @@ export default function Home() {
             </div>
           </dl>
         </div>
-        <div>...</div>
+
+        {/* seção das linguagens */}
+        <div className="mx-auto flex justify-center mt-30 max-w-1xl">
+          <div className="grid grid-cols-4 gap-10 lg:gap-20">
+            <motion.div
+              initial={{ opacity: 0, scaleY: 0.5 }}
+              animate={{ opacity: 1, scaleY: 1 }}
+              transition={{
+                duration: 0.8,
+                delay: 2.6,
+                ease: [0, 0.71, 0.2, 1.01],
+              }}
+            >
+              <IoLogoJavascript className="text-4xl sm:text-5xl lg:text-6xl" />
+            </motion.div>
+
+            <motion.div
+              initial={{ opacity: 0, scaleY: 0.5 }}
+              animate={{ opacity: 1, scaleY: 1 }}
+              transition={{
+                duration: 0.8,
+                delay: 2.8,
+                ease: [0, 0.71, 0.2, 1.01],
+              }}
+            >
+              <FaNodeJs className="text-4xl sm:text-5xl lg:text-6xl" />
+            </motion.div>
+
+            <motion.div
+              initial={{ opacity: 0, scaleY: 0.5 }}
+              animate={{ opacity: 1, scaleY: 1 }}
+              transition={{
+                duration: 0.8,
+                delay: 3,
+                ease: [0, 0.71, 0.2, 1.01],
+              }}
+            >
+              <SiMongodb className="text-4xl sm:text-5xl lg:text-6xl" />
+            </motion.div>
+
+            <motion.div
+              initial={{ opacity: 0, scaleY: 0.5 }}
+              animate={{ opacity: 1, scaleY: 1 }}
+              transition={{
+                duration: 0.8,
+                delay: 3.2,
+                ease: [0, 0.71, 0.2, 1.01],
+              }}
+            >
+              <FaReact className="text-4xl sm:text-5xl lg:text-6xl" />
+            </motion.div>
+          </div>
+        </div>
       </div>
     </div>
   );
