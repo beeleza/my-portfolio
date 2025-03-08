@@ -1,8 +1,9 @@
 import { motion } from "motion/react";
-import backgroundImg from "../assets/bg2.png";
 import { IoLogoJavascript } from "react-icons/io";
-import { FaDocker, FaJava, FaNodeJs, FaPython, FaReact } from "react-icons/fa";
-import { SiMongodb } from "react-icons/si";
+import { FaAngular, FaDocker, FaJava, FaLinux, FaNodeJs, FaReact } from "react-icons/fa";
+import { SiJavascript, SiMongodb, SiSpring, SiSpringboot, SiTypescript } from "react-icons/si";
+import { BiLogoPostgresql } from "react-icons/bi";
+import { DiDocker, DiPostgresql } from "react-icons/di";
 
 const transition = {
   duration: 0.8,
@@ -256,7 +257,7 @@ export default function Home() {
                 ease: [0, 0.71, 0.2, 1.01],
               }}
             >
-              <IoLogoJavascript className="text-4xl sm:text-5xl lg:text-6xl" />
+              <FaAngular className="text-4xl sm:text-5xl lg:text-6xl" />
             </motion.div>
 
             <motion.div
@@ -268,7 +269,7 @@ export default function Home() {
                 ease: [0, 0.71, 0.2, 1.01],
               }}
             >
-              <FaNodeJs className="text-4xl sm:text-5xl lg:text-6xl" />
+              <FaJava className="text-4xl sm:text-5xl lg:text-6xl" />
             </motion.div>
 
             <motion.div
@@ -280,7 +281,7 @@ export default function Home() {
                 ease: [0, 0.71, 0.2, 1.01],
               }}
             >
-              <SiMongodb className="text-4xl sm:text-5xl lg:text-6xl" />
+              <DiPostgresql className="text-4xl sm:text-5xl lg:text-6xl" />
             </motion.div>
 
             <motion.div
@@ -292,7 +293,7 @@ export default function Home() {
                 ease: [0, 0.71, 0.2, 1.01],
               }}
             >
-              <FaReact className="text-4xl sm:text-5xl lg:text-6xl" />
+              <FaNodeJs className="text-4xl sm:text-5xl lg:text-6xl" />
             </motion.div>
           </div>
         </div>
