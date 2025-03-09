@@ -1,15 +1,6 @@
 import { motion } from "motion/react";
-import { IoLogoJavascript } from "react-icons/io";
-import { FaAngular, FaDocker, FaJava, FaLinux, FaNodeJs, FaReact } from "react-icons/fa";
-import { SiJavascript, SiMongodb, SiSpring, SiSpringboot, SiTypescript } from "react-icons/si";
-import { BiLogoPostgresql } from "react-icons/bi";
-import { DiDocker, DiPostgresql } from "react-icons/di";
-
-const transition = {
-  duration: 0.8,
-  delay: 0.5,
-  ease: [0, 0.71, 0.2, 1.01],
-};
+import { DiPostgresql } from "react-icons/di";
+import { FaAngular, FaJava, FaNodeJs } from "react-icons/fa";
 
 export default function Home() {
   return (
