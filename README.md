@@ -1,54 +1,36 @@
-# React + TypeScript + Vite
+# Higor Beleza do Nascimento
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+E-mail: higorbeleza.dev@gmail.com | Linkedin: https://www.linkedin.com/in/higor-beleza/ | Github: https://github.com/beeleza
 
-Currently, two official plugins are available:
+Telefone: (93) xxxx-xxxx | Santarém-PA
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Objetivo
 
-## Expanding the ESLint configuration
+Desenvolvedor Fullstack com experiência em JavaScript (React.js, Node.js), TypeScript e Java, buscando contribuir em projetos desafiadores. Familiarizado com bancos de dados relacionais (MySQL, PostgreSQL) e conteinerização com Docker. Focado em aprender e resolver problemas de forma eficiente.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## Habilidades Técnicas
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+- Linguagens de Programação: JavaScript, TypeScript, Java
+- Frameworks/Bibliotecas: React.js, Node.js, Spring Boot, Express, Tailwind
+- Banco de Dados: MySQL, PostgreSQL
+- Ferramentas/Plataformas: Docker, Git, npm, VScode
+- Outros: HTML, CSS, APIs REST, Testes Unitários
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## Projetos Pessoais
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+- <a href="https://github.com/beeleza/chat-app">Chat App</a>: Chat de conversa em tempo real desenvolvido com Reacjs, nodejs, mongodb para armazenar dados de conversas e usuários e socket.io para a comunicação em tempo real entre cliente-servidor. <br/>
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+- <a href="https://github.com/beeleza/KeyPass-Api">KeyPass API</a>: Este é um sistema de autenticação simples utilizando Node.js, JWT (JSON Web Tokens), MongoDB e Express. O sistema permite a criação de novas tarefas, login, e a geração de tokens JWT para autenticação de usuários em endpoints protegidos.. <br/>
+
+## Formação Acadêmica
+
+- Análise e Desenvolvimento de Sistemas - Descomplica EAD (cursando)
+- Bootcamp Bradesco - Java Cloud Native
+- Fundamentos de Azure (AZ-900)
+
+## Idiomas
+
+- Inglês Intermediário (escrita e leitura)
+
+## Cursos e Certificações
+- 
